@@ -46,6 +46,7 @@ const Footer: FC<{
 
   return (
     <footer className={styles.footer}>
+      {/* TODO: integrar los releases badges */}
       <div className={styles.sectionPrimary}>
         {navigation.footerLinks.slice(0, -1).map(item => (
           <NavItem
