@@ -1,13 +1,13 @@
 @reference "../../../../styles/index.css";
 
 .partnerIcon {
-  @apply h-12!
+  @apply h-10!
     w-auto!
-    min-w-12!
+    min-w-10!
     !p-2;
 
   svg {
-    @apply !h-7
+    @apply !h-6
       !w-auto;
   }
 }
